@@ -1,0 +1,53 @@
+﻿body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 550px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+.card {
+    border-radius: 10px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+    padding-top: 10%;
+    opacity: 0.8;
+}
+
+.des {
+    display: inline-flex;
+    width: 100%;
+}
+
+    .des .description {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+.search input {
+    background-color: #2d2d2d;
+    border: 0;
+    border-radius: 30px;
+    height: 40px;
+    width: 80%;
+    color: white;
+    padding-left: 10px;
+}
+
+.search button {
+    border-radius: 100px;
+    background-color: #636363;
+    border: 0;
+}
+
+.weather {
+    margin-top: 3%;
+}
