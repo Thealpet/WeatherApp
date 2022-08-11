@@ -1,6 +1,4 @@
-﻿//bruke geolocation api for å sjekke hvor brukeren er nå. Forslag om å se været der man er. 
-//Eller lage en liste med de siste stedene som ble søkt på. 
-//Få opp forslag i en liste når man begynner å skrive. f.eks. etter tre bokstaver. 
+
 
 $(function () {
     yourLocation();
@@ -75,5 +73,4 @@ function showWeather(data) {
 function resetError() {
     $("#error").html("");
 }
-
-//hente inn api med alle land i verden. Sammenligne country-code med koden i apiet og skrive ut ekte navn. 
+@ 
